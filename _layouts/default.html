@@ -41,20 +41,34 @@
   </div>
   <div class="container">
     {{ content }}
-
+    
+    <hr>
     <div class="footer">
       <div class="contact">
-        <p>
-          Your Name<br />
-          What You Are<br />
-          your@email.com
-        </p>
-      </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-          <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-        </p>
+        <div class='row'>
+          <div class='span9'>
+            <a href="http://github.com/Ada-Developers-Academy">GitHub</a>
+            <a href="http://twitter.com/adadev">Twitter</a>
+            <a href="http://linkedin.com/adadev">LinkedIn</a>
+          </div>
+          <div class='span3'>
+            <!-- Begin MailChimp Signup Form -->
+            <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+            	#mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+              <form action="http://adadevelopersacademy.us7.list-manage2.com/subscribe/post?u=1257144c242d44e00562dabbd&amp;id=9343a1d29b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+              	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>  
+        </div>  
       </div>
     </div>
   </div> <!-- /container -->
