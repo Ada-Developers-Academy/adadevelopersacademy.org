@@ -1,3 +1,8 @@
 name: Ada Developers Academy
 pygments: true
 layout: default
+
+# defaults
+sass:
+  syntax: sass        # scss|sass
+  style:  compressed  # nested|expanded|compact|compressed
