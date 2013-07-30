@@ -3,14 +3,6 @@
 /* Common
 /*
 /*****************************************************************************/
-/* Bootstrap Override */
-
-.navbar-fixed-top {
-  top: 10px;
-}
-
-/* END Bootstrap Override */
-
 /* Global Reset */
 * {
   margin: 0;
@@ -25,30 +17,4 @@ body {
 
 hr {
   margin: 50px 0;
-}
-.jumbotron {
-  margin: 100px 0 50px 0;
-  text-align: center;
-}
-.jumbotron h1 {
-  text-shadow: 2px 2px white;
-  font-size: 70px;
-  line-height: 1;
-}
-
-.jumbotron h3 {
-  font-weight: 100;
-  line-height: 1;
-}
-
-#ada-info img {
-  display: block;
-  margin: 0 auto;
-  
-}
-
-.body-text p {
-  font-size: 1.4em;
-  font-weight: 200;
-  line-height: 30px;
 }

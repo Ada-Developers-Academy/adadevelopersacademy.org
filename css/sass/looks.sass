@@ -1,3 +1,4 @@
+$muted: #E4E4E4
 $navy: #132e3f
 $sea: #224549
 $forest: #305e42
@@ -6,14 +7,30 @@ $lime: #9eb15f
 $yellow: #dab765
 
 body
-  background: #eee
-  border-top: 10px solid $lime
+  background: $muted 
   font-family: "ff-tisa-web-pro", serif
-  
-  
+
 h1
   font-family: "oxtail", sans-serif
-  
+
+.nav-faq
+  margin-right: 120px
+
+.center-nav
+  margin-left: 30% !important
+
+.ada-logo
+  position: absolute
+  left: 50%
+  margin-left: -59px
+
+.navbar-inner
+  background: $navy !important
+  .pull-left
+    margin-left: 100px
+  .pull-right
+    margin-right: 100px  
+
 
 .page-header
   height: 150px
@@ -36,3 +53,28 @@ h1
   background-image: url("/images/typing.png")
   background-repeat: no-repeat
   background-size: 100%
+  
+.jumbotron 
+  margin: 100px 0 50px 0
+  text-align: center
+
+.jumbotron h1 
+  text-shadow: 2px 2px white
+  font-size: 70px
+  line-height: 1
+
+.jumbotron h3 
+  font-weight: 100
+  line-height: 1
+
+#ada-info img 
+  display: block
+  margin: 0 auto
+
+.body-text p 
+  font-size: 1.4em
+  font-weight: 200
+  line-height: 30px
+
+.navbar-fixed-top 
+  top: 10px
