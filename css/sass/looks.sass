@@ -34,19 +34,27 @@ a
 .ada-logo
   position: absolute 
   left: 50%
-  margin-left: -95px
-  margin-top: -30px
+  margin-left: -70px
+  margin-top: -20px
 
 .navbar-inner
+  border-bottom: 1px solid $forest
+  height: 65px
   background: $grass !important
   a 
+    margin-top: 12px
+    font-size: 16px
     color: $navy !important
   a:hover, .active a
+    -webkit-box-shadow: none !important
+    box-shadow: none !important
+    background: none !important
     color: $muted !important   
-  .pull-left
-    margin-left: 100px
-  .pull-right
-    margin-right: 100px  
+
+.icon
+  margin-top: 10px
+  height: 45px
+  width: 45spx    
 
 // For the header that sits below the top nav
 .page-header
@@ -67,16 +75,19 @@ a
   
 #about-header
   background-image: url("/images/typing.png")
+  
+// Footer
+.footer
+  background: $grass
+  border-top: 1px solid $forest 
 
 // For the homepage
-  
 #jumbotron 
-  height: 300px !important
+  height: 350px !important
   background-image: url("/images/typing.png")
-  border-bottom: 1px solid $forest
   margin-bottom: 20px
   #jumbotron-text
-    padding-top: 50px
+    padding-top: 75px
   h1.ada-text
     font-size: 120px
   h1 
@@ -89,7 +100,7 @@ a
     line-height: 1
 
 .featured
-  text-align: right
+  text-align: center
 
 .sponsors
   li 
@@ -101,7 +112,6 @@ a
     display: inline-block
 
 // Page-specific styling
-
 #ada-info img 
   display: block
   margin: 0 auto
