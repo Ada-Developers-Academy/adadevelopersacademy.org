@@ -29,12 +29,17 @@ h1
   margin-left: 30% !important
 
 .ada-logo
-  position: absolute
+  position: absolute 
   left: 50%
-  margin-left: -59px
+  margin-left: -95px
+  margin-top: -30px
 
 .navbar-inner
-  background: $navy !important
+  background: $grass !important
+  a 
+    color: $navy !important
+  a:hover, .active a
+    color: $muted !important   
   .pull-left
     margin-left: 100px
   .pull-right
@@ -48,7 +53,6 @@ h1
   background: $grass
   background-repeat: no-repeat
   background-size: 100%
-  
   h1 
     margin-top: 0px
     line-height: 60px
@@ -68,11 +72,13 @@ h1
   background-image: url("/images/typing.png")
   #jumbotron-text
     padding-top: 50px
+  h1.ada-text
+    font-size: 120px
   h1 
     margin-left: 20px
     text-shadow: 2px 2px white
     font-size: 70px
-    line-height: 1
+    line-height: .8
   h3 
     font-weight: 100
     line-height: 1
