@@ -1,0 +1,121 @@
+body {
+  background: #e4e4e4;
+  font-family: "ff-tisa-web-pro", serif; }
+
+h1 {
+  font-family: "oxtail", sans-serif; }
+
+a {
+  color: #578934; }
+
+.body-text {
+  margin-bottom: 50px; }
+  .body-text p {
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 30px; }
+
+label {
+  margin-top: 10px;
+  font-size: 20px; }
+
+input {
+  margin-top: 10px;
+  display: inline-block; }
+
+input.btn {
+  margin-top: 0px !important; }
+
+.navbar-fixed-top {
+  top: 10px; }
+
+.nav-faq {
+  margin-right: 120px; }
+
+.center-nav {
+  margin-left: 30% !important; }
+
+.ada-logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  margin-top: -20px; }
+
+.navbar-inner {
+  border-bottom: 1px solid #305e42;
+  height: 65px;
+  background: #578934 !important; }
+  .navbar-inner a {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #132e3f !important; }
+  .navbar-inner a:hover, .navbar-inner .active a {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    color: #e4e4e4 !important; }
+
+.icon {
+  margin-top: 10px;
+  height: 45px;
+  width: 45spx; }
+
+.page-header {
+  height: 150px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  background: #9eb15f;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .page-header h1 {
+    text-shadow: 2px 2px white;
+    font-size: 90px;
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-left: 20px; }
+
+.footer {
+  padding-top: 30px;
+  padding-left: 40px;
+  background: #578934;
+  border-top: 1px solid #305e42; }
+  .footer a {
+    color: #132e3f; }
+  .footer .footer-email-form {
+    margin-right: 40px;
+    text-align: right !important; }
+
+#jumbotron {
+  height: 350px !important;
+  background-image: url("/images/typing.png");
+  margin-bottom: 20px; }
+  #jumbotron #jumbotron-text {
+    padding-top: 75px; }
+  #jumbotron h1.ada-text {
+    font-size: 120px; }
+  #jumbotron h1 {
+    margin-left: 20px;
+    text-shadow: 2px 2px white;
+    font-size: 70px;
+    line-height: 0.8; }
+  #jumbotron h3 {
+    font-weight: 100;
+    line-height: 1; }
+
+.featured {
+  text-align: center; }
+
+div.sponsors {
+  margin-bottom: 50px; }
+
+ul.sponsors li {
+  height: 70px;
+  line-height: 70px; }
+ul.sponsors img {
+  width: 100%;
+  max-height: 70px;
+  display: inline-block; }
+
+#ada-info img {
+  display: block;
+  margin: 0 auto; }
