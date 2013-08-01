@@ -11,8 +11,7 @@ a {
   color: #578934; }
 
 .body-text {
-  margin-bottom: 5em;
-  border: 1px solid blue; }
+  margin-bottom: 5em; }
   .body-text p {
     font-size: 1.4em; }
 
@@ -76,7 +75,7 @@ input.btn {
   height: 150px;
   margin-top: 0px;
   margin-bottom: 60px;
-  background: purple;
+  background: #9eb15f;
   background-repeat: no-repeat;
   background-size: 100%; }
   .page-header h1 {
