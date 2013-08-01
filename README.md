@@ -1,5 +1,14 @@
 ada.com
 =======
-Start the server: jekyll server -w 
+Get started:
 
-Watch SASS changes: sass --watch assets/:css/
+<pre><code>
+gem install bundler
+bundle
+</code></pre>
+
+Start the server/watch SASS changes: 
+
+<pre><code>
+rake
+</code></pre>
