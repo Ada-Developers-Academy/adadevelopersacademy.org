@@ -6,22 +6,31 @@ $grass: #578934
 $lime: #9eb15f
 $yellow: #dab765
 
+$display-font: "oxtail", sans-serif
+$text-font: "ff-tisa-web-pro", serif
+
+//
+// Text
+// 
 body
-  background: $muted 
-  font-family: "ff-tisa-web-pro", serif
+  background: $muted
+  font-family: $text-font
+  font-size: 1em
+  line-height: 1.5em
 
 h1
-  font-family: "oxtail", sans-serif
+  font-family: $display-font
   
 a
   color: $grass  
   
 .body-text 
-  margin-bottom: 50px
+  margin-bottom: 5em
+  border: 1px solid blue
   p 
     font-size: 1.4em
-    font-weight: 200
-    line-height: 30px  
+// end
+
 
 label
   margin-top: 10px
@@ -32,47 +41,81 @@ input
 input.btn
   margin-top: 0px !important
 
-// For the top nav
-.navbar-fixed-top 
-  top: 10px
-
-.nav-faq
-  margin-right: 120px
-
-.center-nav
-  margin-left: 30% !important
-
-.ada-logo
-  position: absolute 
-  left: 50%
-  margin-left: -70px
-  margin-top: -20px
-
+//
+// Top Navigation Link Colors
+//
 .navbar-inner
-  border-bottom: 1px solid $forest
-  height: 65px
-  background: $grass !important
   a 
-    margin-top: 12px
-    font-size: 16px
+    -webkit-box-shadow: none !important
+    box-shadow: none !important
     color: $navy !important
-  a:hover, .active a
+    &:hover
+      background-color: $forest !important
+  .active a
     -webkit-box-shadow: none !important
     box-shadow: none !important
     background: none !important
-    color: $muted !important   
+    color: $forest !important   
+//end
+
+//
+// Top Navigation
+//
+// .navbar.navbar-inverse.navbar-static-top
+//   .navbar-inner                              - 
+//     .container-fluid
+//       button.button 
+//       .nav-collapse.collapse                 - background to <h1> on other pages ? 
+//         ul.nav.center-nav                    - links are <li> here
+//          img.ada-logo
+
+.navbar-inner
+  // height: 65px
+  background: $grass !important
+  border-bottom: 3px solid $muted !important
+  padding-bottom: 0 
+  a 
+    margin: 0
+    font-size: 1.5em
+
+  .container-fluid
+    text-align: center 
+
+    .nav-collapse.collapse
+      ul.nav.center-nav
+        // margin-left: 30% !important
+        display: inline-block !important
+        margin: 0 auto !important
+        padding: 0
+        float: none
+        vertical-align: bottom
+
+        li a
+          padding: 0.75em 0.5em 1em
+          text-shadow: 0 0 0 
+
+        li#logo 
+          position: relative
+          width: 120px
+          img#adalogo
+            width: 106px
+            height: 106px
+            position: absolute
+            top: -9px
+            left: 11px
 
 .icon
   margin-top: 10px
   height: 45px
-  width: 45spx    
+  width: 45px    
+//end
 
 // For the header that sits below the top nav
 .page-header
   height: 150px
   margin-top: 0px
   margin-bottom: 60px
-  background: $lime
+  background: purple
   background-repeat: no-repeat
   background-size: 100%
   h1 

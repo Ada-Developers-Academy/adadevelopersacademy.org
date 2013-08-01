@@ -1,6 +1,8 @@
 body {
   background: #e4e4e4;
-  font-family: "ff-tisa-web-pro", serif; }
+  font-family: "ff-tisa-web-pro", serif;
+  font-size: 1em;
+  line-height: 1.5em; }
 
 h1 {
   font-family: "oxtail", sans-serif; }
@@ -9,11 +11,10 @@ a {
   color: #578934; }
 
 .body-text {
-  margin-bottom: 50px; }
+  margin-bottom: 5em;
+  border: 1px solid blue; }
   .body-text p {
-    font-size: 1.4em;
-    font-weight: 200;
-    line-height: 30px; }
+    font-size: 1.4em; }
 
 label {
   margin-top: 10px;
@@ -26,45 +27,56 @@ input {
 input.btn {
   margin-top: 0px !important; }
 
-.navbar-fixed-top {
-  top: 10px; }
-
-.nav-faq {
-  margin-right: 120px; }
-
-.center-nav {
-  margin-left: 30% !important; }
-
-.ada-logo {
-  position: absolute;
-  left: 50%;
-  margin-left: -70px;
-  margin-top: -20px; }
+.navbar-inner a {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color: #132e3f !important; }
+  .navbar-inner a:hover {
+    background-color: #305e42 !important; }
+.navbar-inner .active a {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  color: #305e42 !important; }
 
 .navbar-inner {
-  border-bottom: 1px solid #305e42;
-  height: 65px;
-  background: #578934 !important; }
+  background: #578934 !important;
+  border-bottom: 3px solid #e4e4e4 !important;
+  padding-bottom: 0; }
   .navbar-inner a {
-    margin-top: 12px;
-    font-size: 16px;
-    color: #132e3f !important; }
-  .navbar-inner a:hover, .navbar-inner .active a {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    background: none !important;
-    color: #e4e4e4 !important; }
+    margin: 0;
+    font-size: 1.5em; }
+  .navbar-inner .container-fluid {
+    text-align: center; }
+    .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav {
+      display: inline-block !important;
+      margin: 0 auto !important;
+      padding: 0;
+      float: none;
+      vertical-align: bottom; }
+      .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li a {
+        padding: 0.75em 0.5em 1em;
+        text-shadow: 0 0 0; }
+      .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo {
+        position: relative;
+        width: 120px; }
+        .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo img#adalogo {
+          width: 106px;
+          height: 106px;
+          position: absolute;
+          top: -9px;
+          left: 11px; }
 
 .icon {
   margin-top: 10px;
   height: 45px;
-  width: 45spx; }
+  width: 45px; }
 
 .page-header {
   height: 150px;
   margin-top: 0px;
   margin-bottom: 60px;
-  background: #9eb15f;
+  background: purple;
   background-repeat: no-repeat;
   background-size: 100%; }
   .page-header h1 {
