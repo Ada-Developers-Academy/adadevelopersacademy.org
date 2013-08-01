@@ -1,19 +1,25 @@
 body {
   background: #e4e4e4;
-  font-family: "ff-tisa-web-pro", serif; }
+  font-family: "ff-tisa-web-pro", serif;
+  font-size: 1em;
+  line-height: 1.5em; }
 
-h1 {
+h1, h2, h3 {
   font-family: "oxtail", sans-serif; }
 
 a {
   color: #578934; }
 
 .body-text {
-  margin-bottom: 50px; }
+  margin-bottom: 5em; }
   .body-text p {
     font-size: 1.4em;
-    font-weight: 200;
-    line-height: 30px; }
+    line-height: 1.5em; }
+
+.killwithcenter {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
 
 label {
   margin-top: 10px;
@@ -26,57 +32,81 @@ input {
 input.btn {
   margin-top: 0px !important; }
 
-.navbar-fixed-top {
-  top: 10px; }
-
-.nav-faq {
-  margin-right: 120px; }
-
-.center-nav {
-  margin-left: 30% !important; }
-
-.ada-logo {
-  position: absolute;
-  left: 50%;
-  margin-left: -70px;
-  margin-top: -20px; }
+.navbar-inner a {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color: #132e3f !important; }
+  .navbar-inner a:hover {
+    background-color: #305e42 !important; }
+.navbar-inner .active a {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  color: #305e42 !important; }
 
 .navbar-inner {
-  border-bottom: 1px solid #305e42;
-  height: 65px;
-  background: #578934 !important; }
+  background: #578934 !important;
+  border-bottom: 3px solid #e4e4e4 !important;
+  padding-bottom: 0; }
   .navbar-inner a {
-    margin-top: 12px;
-    font-size: 16px;
-    color: #132e3f !important; }
-  .navbar-inner a:hover, .navbar-inner .active a {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    background: none !important;
-    color: #e4e4e4 !important; }
+    margin: 0;
+    font-size: 1.5em; }
+  .navbar-inner .container-fluid {
+    text-align: center; }
+    .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav {
+      display: inline-block !important;
+      margin: 0 auto !important;
+      padding: 0;
+      float: none;
+      vertical-align: bottom; }
+      .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li a {
+        padding: 0.75em 0.5em 1em;
+        text-shadow: 0 0 0;
+        font-family: "oxtail", sans-serif; }
+      .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo {
+        position: relative;
+        width: 120px; }
+        .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo a, .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo a:hover, .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo a:visited, .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo a:active {
+          background-color: transparent !important; }
+        .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo img#adalogo {
+          width: 106px;
+          height: 106px;
+          position: absolute;
+          top: -9px;
+          left: 11px; }
 
 .icon {
   margin-top: 10px;
   height: 45px;
-  width: 45spx; }
+  width: 45px; }
 
 .page-header {
-  height: 150px;
-  margin-top: 0px;
-  margin-bottom: 60px;
-  background: #9eb15f;
+  height: auto;
+  margin: 0 0 1.5em 0;
+  padding: 1.5em 0;
+  background: #132e3f;
   background-repeat: no-repeat;
-  background-size: 100%; }
+  background-size: 100%;
+  border-bottom: 1px solid #132e3f;
+  text-align: center; }
+  .page-header .span12 {
+    text-align: center;
+    vertical-align: middle; }
   .page-header h1 {
-    text-shadow: 2px 2px white;
-    font-size: 90px;
-    margin-top: 0px;
-    padding-top: 60px;
-    padding-left: 20px; }
+    text-shadow: 1px 2px #578934;
+    font-size: 5em;
+    line-height: 1em;
+    color: #9eb15f;
+    display: inline; }
+    .page-header h1 small {
+      color: #578934;
+      text-shadow: 2px 1px #305e42;
+      font-size: 0.75em;
+      display: inline; }
 
 .footer {
-  padding-top: 30px;
-  padding-left: 40px;
+  margin-top: 1em;
+  padding: 3em 4em 7em;
   background: #578934;
   border-top: 1px solid #305e42; }
   .footer a {
@@ -107,6 +137,8 @@ input.btn {
 
 div.sponsors {
   margin-bottom: 50px; }
+  div.sponsors h3 {
+    color: #777777; }
 
 ul.sponsors li {
   height: 70px;
