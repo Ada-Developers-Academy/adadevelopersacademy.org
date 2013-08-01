@@ -1,4 +1,6 @@
 $muted: #E4E4E4
+$charcoal: #777777
+
 $navy: #132e3f
 $sea: #224549
 $forest: #305e42
@@ -18,7 +20,7 @@ body
   font-size: 1em
   line-height: 1.5em
 
-h1
+h1, h2, h3
   font-family: $display-font
   
 a
@@ -28,8 +30,13 @@ a
   margin-bottom: 5em
   p 
     font-size: 1.4em
+    line-height: 1.5em
 // end
 
+.killwithcenter
+  display: block 
+  margin: 0 auto 
+  text-align: center 
 
 label
   margin-top: 10px
@@ -91,11 +98,15 @@ input.btn
 
         li a
           padding: 0.75em 0.5em 1em
-          text-shadow: 0 0 0 
+          text-shadow: 0 0 0
+          font-family: $display-font
 
         li#logo 
           position: relative
           width: 120px
+          a
+            &, &:hover, &:visited, &:active
+              background-color: transparent !important
           img#adalogo
             width: 106px
             height: 106px
@@ -109,32 +120,45 @@ input.btn
   width: 45px    
 //end
 
+
 // For the header that sits below the top nav
 .page-header
-  height: 150px
-  margin-top: 0px
-  margin-bottom: 60px
-  background: $lime
+  height: auto
+  margin: 0 0 1.5em 0
+  padding: 1.5em 0
+  background: $navy
   background-repeat: no-repeat
   background-size: 100%
-  h1 
-    text-shadow: 2px 2px white
-    font-size: 90px
-    margin-top: 0px
-    padding-top: 60px
-    padding-left: 20px   
+  border-bottom: 1px solid $navy
+  text-align: center
+  .span12 
+    text-align: center
+    vertical-align: middle
+  h1
+    text-shadow: 1px 2px $grass
+    font-size: 5em
+    line-height: 1em
+    color: $lime
+    display: inline
+    small 
+      color: $grass
+      text-shadow: 2px 1px $forest 
+      font-size: 0.75em
+      display: inline
+//end
 
 // Footer
 .footer
-  padding-top: 30px
-  padding-left: 40px
+  margin-top: 1em
+  padding: 3em 4em 7em 
   background: $grass
-  border-top: 1px solid $forest 
+  border-top: 1px solid $forest
   a
     color: $navy
   .footer-email-form
     margin-right: 40px
     text-align: right !important
+//end 
 
 // For the homepage
 #jumbotron 
@@ -159,6 +183,8 @@ input.btn
 
 div.sponsors
   margin-bottom: 50px
+  h3 
+    color: $charcoal
   
 ul.sponsors
   li 
