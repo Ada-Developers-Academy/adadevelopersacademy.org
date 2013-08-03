@@ -145,6 +145,7 @@ ul.sponsors li {
   line-height: 70px; }
 ul.sponsors img {
   width: 100%;
+  max-width: 170px;
   max-height: 70px;
   display: inline-block; }
 
