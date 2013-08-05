@@ -1,0 +1,207 @@
+$muted: #E4E4E4
+$charcoal: #777777
+
+$navy: #132e3f
+$sea: #224549
+$forest: #305e42
+$grass: #578934
+$lime: #9eb15f
+$yellow: #dab765
+
+$display-font: "oxtail", sans-serif
+$text-font: "ff-tisa-web-pro", serif
+
+//
+// Text
+// 
+body
+  background: $muted
+  font-family: $text-font
+  font-size: 1em
+  line-height: 1.5em
+
+h1, h2, h3
+  font-family: $display-font
+  
+a
+  color: $grass  
+  
+.body-text 
+  margin-bottom: 5em
+  p 
+    font-size: 1.4em
+    line-height: 1.5em
+    margin-bottom: 40px
+  hr
+    margin: 60px 0  
+// end
+
+.killwithcenter
+  display: block 
+  margin: 0 auto 
+  text-align: center 
+
+label
+  margin-top: 10px
+  font-size: 20px
+input
+  margin-top: 10px
+  display: inline-block
+input.btn
+  margin-top: 0px !important
+
+//
+// Top Navigation Link Colors
+//
+.navbar-inner
+  a 
+    -webkit-box-shadow: none !important
+    box-shadow: none !important
+    color: $navy !important
+    &:hover
+      background-color: $forest !important
+  .active a
+    -webkit-box-shadow: none !important
+    box-shadow: none !important
+    background: none !important
+    color: $forest !important   
+//end
+
+//
+// Top Navigation
+//
+// .navbar.navbar-inverse.navbar-static-top
+//   .navbar-inner                              - 
+//     .container-fluid
+//       button.button 
+//       .nav-collapse.collapse                 - background to <h1> on other pages ? 
+//         ul.nav.center-nav                    - links are <li> here
+//          img.ada-logo
+
+.navbar-inner
+  // height: 65px
+  background: $grass !important
+  border-bottom: 3px solid $muted !important
+  padding-bottom: 0 
+  a 
+    margin: 0
+    font-size: 1.5em
+
+  .container-fluid
+    text-align: center 
+
+    .nav-collapse.collapse
+      ul.nav.center-nav
+        // margin-left: 30% !important
+        display: inline-block !important
+        margin: 0 auto !important
+        padding: 0
+        float: none
+        vertical-align: bottom
+
+        li a
+          padding: 0.75em 0.5em 1em
+          text-shadow: 0 0 0
+          font-family: $display-font
+
+        li#logo 
+          position: relative
+          width: 120px
+          a
+            &, &:hover, &:visited, &:active
+              background-color: transparent !important
+          img#adalogo
+            width: 106px
+            height: 106px
+            position: absolute
+            top: -9px
+            left: 11px
+
+.icon
+  margin-top: 10px
+  height: 45px
+  width: 45px    
+//end
+
+
+// For the header that sits below the top nav
+.page-header
+  height: auto
+  margin: 0 0 1.5em 0
+  padding: 1.5em 0
+  background: $navy
+  background-repeat: no-repeat
+  background-size: 100%
+  border-bottom: 1px solid $navy
+  text-align: center
+  .span12 
+    text-align: center
+    vertical-align: middle
+  h1
+    text-shadow: 1px 2px $grass
+    font-size: 5em
+    line-height: 1em
+    color: $lime
+    display: inline
+    small 
+      color: $grass
+      text-shadow: 2px 1px $forest 
+      font-size: 0.75em
+      display: inline
+//end
+
+// Footer
+.footer
+  margin-top: 1em
+  padding: 3em 4em 7em 
+  background: $grass
+  border-top: 1px solid $forest
+  a
+    color: $navy
+  .footer-email-form
+    margin-right: 40px
+    text-align: right !important
+//end 
+
+// For the homepage
+#jumbotron 
+  height: 350px !important
+  background-image: url("/images/typing.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-bottom: 20px
+  #jumbotron-text
+    padding-top: 75px
+  h1.ada-text
+    font-size: 120px
+  h1 
+    margin-left: 20px
+    text-shadow: 2px 2px white
+    font-size: 70px
+    line-height: .8
+  h3 
+    font-weight: 100
+    line-height: 1
+
+.featured
+  text-align: center
+
+div.sponsors
+  margin-bottom: 50px
+  h3 
+    color: $charcoal
+  
+ul.sponsors
+  li 
+    height: 70px
+    line-height: 70px
+  img
+    width: 100%
+    max-width: 170px
+    max-height: 70px  
+    display: inline-block
+
+// Page-specific styling
+#ada-info img 
+  display: block
+  margin: 0 auto
