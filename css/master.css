@@ -83,6 +83,9 @@ input.btn {
   height: 45px;
   width: 45px; }
 
+.donate {
+  margin-top: 8px; }
+
 .page-header {
   height: auto;
   margin: 0 0 1.5em 0;
