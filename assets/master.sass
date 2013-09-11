@@ -167,20 +167,22 @@ input.btn
 
 // For the homepage
 #jumbotron 
-  height: 350px !important
   background-image: url("/images/typing.png")
   background-repeat: no-repeat
   background-size: cover
-  padding-top: 50px
+  padding: 50px 0
+  @media screen and (max-width: 767px) 
+    padding: 0
   text-align: center
   #jumbotron-video
-    width: 450px
     margin: 0 auto
   #jumbotron-text
     margin: 0 auto
     background: rgba(239, 240, 240, .4)
-    width: 450px 
     height: 300px
+    @media screen and (max-width: 767px) 
+      height: 100%
+
     #inner-text
       padding: 20px 10px
 

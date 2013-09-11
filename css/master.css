@@ -120,20 +120,23 @@ input.btn {
     text-align: right !important; }
 
 #jumbotron {
-  height: 350px !important;
   background-image: url("/images/typing.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding: 50px 0;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    #jumbotron {
+      padding: 0; } }
   #jumbotron #jumbotron-video {
-    width: 450px;
     margin: 0 auto; }
   #jumbotron #jumbotron-text {
     margin: 0 auto;
     background: rgba(239, 240, 240, 0.4);
-    width: 450px;
     height: 300px; }
+    @media screen and (max-width: 767px) {
+      #jumbotron #jumbotron-text {
+        height: 100%; } }
     #jumbotron #jumbotron-text #inner-text {
       padding: 20px 10px; }
   #jumbotron h1.ada-text {
