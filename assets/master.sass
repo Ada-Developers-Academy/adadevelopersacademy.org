@@ -25,6 +25,9 @@ h1, h2, h3
   
 a
   color: $grass  
+
+.container 
+  padding-left: 10px
   
 .body-text 
   margin-bottom: 5em
@@ -163,6 +166,15 @@ input.btn
   .footer-email-form
     margin-right: 40px
     text-align: right !important
+@media screen and (max-width: 767px) 
+  #mc_embed_signup
+    input[type="text"],
+    input[type="email"],
+    .btn
+      padding: 6px 0 !important
+      width: 100%
+      display: block
+  
 //end 
 
 // For the homepage
