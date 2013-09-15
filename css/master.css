@@ -10,9 +10,11 @@ h1, h2, h3 {
 a {
   color: #578934; }
 
-.body-text {
-  margin-bottom: 5em;
+.container {
   padding-left: 10px; }
+
+.body-text {
+  margin-bottom: 5em; }
   .body-text p {
     font-size: 1.4em;
     line-height: 1.5em;
@@ -121,6 +123,13 @@ input.btn {
     margin-right: 40px;
     text-align: right !important; }
 
+@media screen and (max-width: 767px) {
+  #mc_embed_signup input[type="text"],
+  #mc_embed_signup input[type="email"],
+  #mc_embed_signup .btn {
+    padding: 6px 0 !important;
+    width: 100%;
+    display: block; } }
 #jumbotron {
   background-image: url("/images/typing.png");
   background-repeat: no-repeat;
