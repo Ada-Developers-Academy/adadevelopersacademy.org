@@ -11,7 +11,8 @@ a {
   color: #578934; }
 
 .body-text {
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  padding-left: 10px; }
   .body-text p {
     font-size: 1.4em;
     line-height: 1.5em;
