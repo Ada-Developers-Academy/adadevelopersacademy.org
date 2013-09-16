@@ -204,3 +204,9 @@ iframe#indie-gogo-widget {
 .sub {
   padding-top: 0px !important;
   font-size: 12px; }
+
+.blog-post {
+  margin: 50px; }
+
+.blog-video {
+  margin: 50px; }
