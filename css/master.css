@@ -82,6 +82,8 @@ input.btn {
           position: absolute;
           top: -9px;
           left: 11px; }
+      .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#apply {
+        background: #9eb15f; }
 
 .icon {
   margin-top: 10px;
@@ -209,6 +211,9 @@ iframe#indie-gogo-widget {
   font-size: 24px; }
 .news-links div {
   padding: 15px 0; }
+
+.blog-links a.blog-title {
+  font-size: 24px; }
 
 .blog-post {
   margin: 50px; }
