@@ -205,6 +205,11 @@ iframe#indie-gogo-widget {
   padding-top: 0px !important;
   font-size: 12px; }
 
+.news-links a {
+  font-size: 24px; }
+.news-links div {
+  padding: 15px 0; }
+
 .blog-post {
   margin: 50px; }
 
