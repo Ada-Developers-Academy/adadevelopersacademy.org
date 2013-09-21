@@ -159,12 +159,17 @@ input.btn {
     font-size: 70px;
     line-height: 0.95; }
 
-.featured {
-  font-size: 28px;
-  text-align: center; }
+.subtitle {
+  margin-top: 20px; }
 
-.subtitle h2 {
-  margin-top: 30px; }
+.featured {
+  text-align: center; }
+  .featured a.btn {
+    margin-top: 20px !important; }
+
+h2.featured {
+  font-size: 28px;
+  margin-top: 0px !important; }
 
 div.sponsors {
   margin-bottom: 50px; }
@@ -184,9 +189,14 @@ ul.team img {
   width: 200px;
   height: 200px; }
 
+.donate-header {
+  font-style: italic;
+  display: block;
+  margin: 15px auto 5px 20px; }
+
 iframe#indie-gogo-widget {
   display: block;
-  margin: 15px auto 0 auto; }
+  margin: 0 auto 0 auto; }
 
 #ada-info img {
   display: block;
