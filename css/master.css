@@ -13,12 +13,10 @@ a {
 .container {
   padding-left: 10px; }
 
-.body-text {
-  margin-bottom: 5em; }
-  .body-text p {
-    font-size: 1.4em;
-    line-height: 1.5em;
-    margin-bottom: 40px; }
+.body-text p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin-bottom: 40px; }
 
 hr {
   margin: 30px 0; }
