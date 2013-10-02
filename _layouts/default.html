@@ -45,6 +45,7 @@
         </button>
         <div class="nav-collapse collapse">
           <ul class="nav center-nav">
+             <li id="home" class="{% if page.url == '/' %}active{% endif %}"><a href="/">Home</a></li>
             <li class="nav-faq {% if page.url == '/faq/index.html'   %}active{% endif %}"><a href="/faq">FAQ</a></li>
             <li class="{% if page.url == '/about/index.html' %}active{% endif %}"><a href="/about">About</a></li>
              <li class="{% if page.url == '/news/index.html' %}active{% endif %}"><a href="/news">News</a></li>
