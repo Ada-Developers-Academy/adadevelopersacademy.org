@@ -11,12 +11,15 @@ $(window).ready(function () {
     $("body").css({"padding":"0px"});
     $(".sponsors").css({"text-align":"center"});
   }
+  else {
+    $('#home').hide();
+  }
 });
 
 $(window).resize(function() {
   if ($(window).width() < 980) {
     $('#logo').hide();
-    $('#home').hide();
+    $('#home').show();
     $("#jumbotron-text h1").css({"font-size":"60px"});
     $("h1.ada-text").css({"font-size":"80px"});
     $(".page-header h1").css({"font-size":"40px"});
