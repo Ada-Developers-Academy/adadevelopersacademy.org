@@ -24,6 +24,12 @@ a {
 hr {
   margin: 30px 0; }
 
+.right_text {
+  text-align: right; }
+
+.center_text {
+  text-align: center; }
+
 .killwithcenter {
   display: block;
   margin: 0 auto;
@@ -231,3 +237,21 @@ iframe#indie-gogo-widget {
 
 .blog-video {
   margin: 50px; }
+
+.spons_logo {
+  max-width: 100px; }
+
+.img_right {
+  float: right; }
+
+.img_left {
+  float: left; }
+
+.clear_floats {
+  clear: both; }
+
+.emphasis {
+  color: #305e42;
+  text-shadow: 1px 1px white;
+  font-size: 1.4em;
+  padding: 10px 0px 10px 0px; }
