@@ -13,13 +13,11 @@ a {
 .container {
   padding-left: 10px; }
 
-.body-text p {
-  font-size: 1.4em;
-  line-height: 1.5em;
-  margin-bottom: 40px; }
-.body-text li {
+.body-text {
   font-size: 1.4em;
   line-height: 1.5em; }
+  .body-text p {
+    margin-bottom: 40px; }
 
 hr {
   margin: 30px 0; }
@@ -255,3 +253,28 @@ iframe#indie-gogo-widget {
   text-shadow: 1px 1px white;
   font-size: 1.4em;
   padding: 10px 0px 10px 0px; }
+
+.vol_signup form {
+  background-color: rgba(255, 255, 255, 0.45);
+  padding: 25px;
+  border: 1px solid #578934;
+    border-radius: 10px; }
+  .vol_signup form label {
+    margin-bottom: 10px; }
+  .vol_signup form input[type=submit] {
+    float: right;
+    cursor: pointer;
+    color: #578934;
+    padding: 10px 17px;
+    border: 1px solid #578934;
+    border-radius: 3px;
+    box-shadow: 0 0 4px; }
+  .vol_signup form input[type=submit]:hover, .vol_signup form input[type=submit]:focus {
+    background-color: white;
+    box-shadow: 0 0 1px; }
+.vol_signup li {
+  line-height: 1.5em; }
+.vol_signup .space_after {
+  margin-bottom: 40px; }
+.vol_signup .bright_text {
+  font-weight: bold; }
