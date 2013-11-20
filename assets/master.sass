@@ -315,11 +315,21 @@ iframe#indie-gogo-widget
       radius: 10px 
     label
       margin-bottom: 10px 
-    submit
-      color: $forest
-      padding: 3px 
+    input[type=submit]
+      float: right 
+      cursor: pointer 
+      color: $grass
+      padding: 5px 9px
+      border: 1px solid $grass
+      border-radius: 3px
+      box-shadow: 0 0 4px
+    input[type=submit]:hover, input[type=submit]:focus
+      background-color: white
+      box-shadow: 0 0 1px 
   li 
     line-height: 1.5em
   .space_after
     margin-bottom: 40px
+  .bright_text
+    font-weight: bold  
   
