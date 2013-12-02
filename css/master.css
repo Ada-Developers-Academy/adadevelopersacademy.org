@@ -150,6 +150,7 @@ input.btn {
     margin: 0 auto; }
   #jumbotron #jumbotron-text {
     margin: 0 auto;
+    padding: 3em;
     background: rgba(239, 240, 240, 0.4);
     height: 300px; }
     @media screen and (max-width: 767px) {
@@ -161,7 +162,7 @@ input.btn {
     font-size: 110px; }
   #jumbotron h1 {
     text-shadow: 2px 2px white;
-    font-size: 70px;
+    font-size: 4em;
     line-height: 0.95; }
 
 .subtitle {
