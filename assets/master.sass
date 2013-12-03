@@ -11,6 +11,21 @@ $yellow: #dab765
 $display-font: "oxtail", sans-serif
 $text-font: "ff-tisa-web-pro", serif
 
+@mixin button_up ($color)
+  cursor: pointer 
+  color: $color
+  background-color: rgba(255, 255, 255, 0.3)
+  padding: 10px 17px
+  border: 1px solid $color
+  border-radius: 3px
+  box-shadow: 1px 1px 5px 1px $color
+
+@mixin button_down($color)
+  background-color: rgba(255, 255, 255, 0.7)
+  border: 1px solid $color
+  box-shadow: 0 0 2px 1px $color
+  text-decoration: none 
+
 //
 // Text
 // 
@@ -59,6 +74,14 @@ input
   display: inline-block
 input.btn
   margin-top: 0px !important
+
+.button-link 
+  @include button_up($grass)
+.button-link:hover, .button-link:focus
+  @include button_down($sea)
+
+.spaced-right
+  padding-left: 30px
 
 //
 // Top Navigation Link Colors
@@ -318,15 +341,9 @@ iframe#indie-gogo-widget
       margin-bottom: 10px 
     input[type=submit]
       float: right 
-      cursor: pointer 
-      color: $grass
-      padding: 10px 17px
-      border: 1px solid $grass
-      border-radius: 3px
-      box-shadow: 0 0 4px
+      @include button_up($grass)
     input[type=submit]:hover, input[type=submit]:focus
-      background-color: white
-      box-shadow: 0 0 1px 
+      @include button_down($sea)
   li 
     line-height: 1.5em
   .space_after

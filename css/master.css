@@ -44,6 +44,24 @@ input {
 input.btn {
   margin-top: 0px !important; }
 
+.button-link {
+  cursor: pointer;
+  color: #578934;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 17px;
+  border: 1px solid #578934;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px #578934; }
+
+.button-link:hover, .button-link:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #224549;
+  box-shadow: 0 0 2px 1px #224549;
+  text-decoration: none; }
+
+.spaced-right {
+  padding-left: 30px; }
+
 .navbar-inner a {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
@@ -266,13 +284,16 @@ iframe#indie-gogo-widget {
     float: right;
     cursor: pointer;
     color: #578934;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 10px 17px;
     border: 1px solid #578934;
     border-radius: 3px;
-    box-shadow: 0 0 4px; }
+    box-shadow: 1px 1px 5px 1px #578934; }
   .vol_signup form input[type=submit]:hover, .vol_signup form input[type=submit]:focus {
-    background-color: white;
-    box-shadow: 0 0 1px; }
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #224549;
+    box-shadow: 0 0 2px 1px #224549;
+    text-decoration: none; }
 .vol_signup li {
   line-height: 1.5em; }
 .vol_signup .space_after {
