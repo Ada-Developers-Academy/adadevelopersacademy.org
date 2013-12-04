@@ -282,18 +282,8 @@ iframe#indie-gogo-widget {
 #vol_guide p {
   margin-bottom: 3px; }
 #vol_guide li {
-  line-height: 1.5em !important; }
+  line-height: 1.2em !important; }
 #vol_guide .alternating_list {
   list-style-type: none; }
   #vol_guide .alternating_list li {
-    padding: 0.25em; }
-  @media screen and (min-width: 768px) {
-    #vol_guide .alternating_list li:nth-child(2n) {
-      text-shadow: 1px 1px rgba(158, 177, 95, 0.5); }
-    #vol_guide .alternating_list li:nth-child(2n-1) {
-      text-shadow: 1px 1px rgba(218, 183, 101, 0.5); } }
-  @media screen and (max-width: 767px) {
-    #vol_guide .alternating_list li:nth-child(2n) {
-      background: rgba(255, 255, 255, 0.3); }
-    #vol_guide .alternating_list li:nth-child(2n-1) {
-      background: rgba(87, 137, 52, 0.1); } }
+    padding-bottom: 1em !important; }
