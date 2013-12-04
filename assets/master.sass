@@ -336,4 +336,20 @@ iframe#indie-gogo-widget
 //Community / Volunteer Guidelines
 #vol_guide
   p
-  margin-bottom: 3px 
+    margin-bottom: 3px 
+  li
+    line-height: 1.5em !important
+  .alternating_list
+    list-style-type: none
+    li
+      padding: .25em
+    @media screen and (min-width: 768px)   
+      li:nth-child(2n)
+        text-shadow: 1px 1px rgba($lime, 0.5)
+      li:nth-child(2n-1)
+        text-shadow: 1px 1px rgba($yellow, 0.5) 
+    @media screen and (max-width: 767px)   
+      li:nth-child(2n)
+        background: rgba(white, 0.3)
+      li:nth-child(2n-1)
+        background: rgba($grass, 0.1)
