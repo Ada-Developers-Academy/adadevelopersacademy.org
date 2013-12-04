@@ -12,6 +12,9 @@ a {
 
 .container {
   padding-left: 10px; }
+  @media screen and (max-width: 767px) {
+    .container {
+      padding-left: 0; } }
 
 .body-text {
   font-size: 1.4em;
@@ -46,18 +49,19 @@ input.btn {
 
 .button-link {
   cursor: pointer;
-  color: #578934;
-  background-color: rgba(255, 255, 255, 0.3);
   padding: 10px 17px;
+  color: #578934;
   border: 1px solid #578934;
   border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 1px 1px 5px 1px #578934; }
 
 .button-link:hover, .button-link:focus {
-  background-color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  color: #224549;
   border: 1px solid #224549;
-  box-shadow: 0 0 2px 1px #224549;
-  text-decoration: none; }
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 2px 1px #224549; }
 
 .navbar-inner a {
   -webkit-box-shadow: none !important;
@@ -168,6 +172,9 @@ input.btn {
     padding: 3em;
     background: rgba(239, 240, 240, 0.4);
     height: 14em; }
+    @media screen and (max-width: 985px) {
+      #jumbotron #jumbotron-text {
+        padding: 1.5em; } }
     @media screen and (max-width: 767px) {
       #jumbotron #jumbotron-text {
         height: 100%; } }
@@ -178,10 +185,15 @@ input.btn {
   #jumbotron h1 {
     text-shadow: 2px 2px white;
     font-size: 4em;
-    line-height: 0.95; }
+    line-height: 0.95;
+    margin-top: -0.2em; }
     @media screen and (max-width: 985px) {
       #jumbotron h1 {
-        font-size: 3em !important; } }
+        font-size: 3em !important;
+        margin-top: 0; } }
+    @media screen and (max-width: 500px) {
+      #jumbotron h1 {
+        font-size: 2em !important; } }
 
 .spaced-right {
   padding-left: 30px; }
@@ -286,17 +298,18 @@ iframe#indie-gogo-widget {
   .vol_signup form input[type=submit] {
     float: right;
     cursor: pointer;
-    color: #578934;
-    background-color: rgba(255, 255, 255, 0.3);
     padding: 10px 17px;
+    color: #578934;
     border: 1px solid #578934;
     border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 1px 1px 5px 1px #578934; }
   .vol_signup form input[type=submit]:hover, .vol_signup form input[type=submit]:focus {
-    background-color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: #224549;
     border: 1px solid #224549;
-    box-shadow: 0 0 2px 1px #224549;
-    text-decoration: none; }
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 2px 1px #224549; }
 .vol_signup li {
   line-height: 1.5em; }
 .vol_signup .space_after {
