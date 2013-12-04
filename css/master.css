@@ -59,9 +59,6 @@ input.btn {
   box-shadow: 0 0 2px 1px #224549;
   text-decoration: none; }
 
-.spaced-right {
-  padding-left: 30px; }
-
 .navbar-inner a {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
@@ -170,7 +167,7 @@ input.btn {
     margin: 0 auto;
     padding: 3em;
     background: rgba(239, 240, 240, 0.4);
-    height: 300px; }
+    height: 14em; }
     @media screen and (max-width: 767px) {
       #jumbotron #jumbotron-text {
         height: 100%; } }
@@ -182,6 +179,12 @@ input.btn {
     text-shadow: 2px 2px white;
     font-size: 4em;
     line-height: 0.95; }
+    @media screen and (max-width: 985px) {
+      #jumbotron h1 {
+        font-size: 3em !important; } }
+
+.spaced-right {
+  padding-left: 30px; }
 
 .subtitle {
   margin-top: 20px; }

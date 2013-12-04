@@ -80,9 +80,6 @@ input.btn
 .button-link:hover, .button-link:focus
   @include button_down($sea)
 
-.spaced-right
-  padding-left: 30px
-
 //
 // Top Navigation Link Colors
 //
@@ -224,7 +221,7 @@ input.btn
     margin: 0 auto
     padding: 3em
     background: rgba(239, 240, 240, .4)
-    height: 300px
+    height: 14em
     @media screen and (max-width: 767px) 
       height: 100%
 
@@ -238,6 +235,11 @@ input.btn
     text-shadow: 2px 2px white
     font-size: 4em
     line-height: .95
+    @media screen and (max-width: 985px)
+      font-size: 3em !important
+
+.spaced-right
+  padding-left: 30px
 
 .subtitle
   margin-top: 20px
