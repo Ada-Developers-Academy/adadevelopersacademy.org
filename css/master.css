@@ -171,7 +171,7 @@ input.btn {
     margin: 0 auto;
     padding: 3em;
     background: rgba(239, 240, 240, 0.4);
-    height: 14em; }
+    height: 10em; }
     @media screen and (max-width: 985px) {
       #jumbotron #jumbotron-text {
         padding: 1.5em; } }
@@ -199,7 +199,7 @@ input.btn {
   padding-left: 30px; }
 
 .subtitle {
-  margin-top: 20px; }
+  margin: 1.3em 0.7em; }
 
 .featured {
   text-align: center; }
@@ -209,6 +209,10 @@ input.btn {
 h2.featured {
   font-size: 28px;
   margin-top: 0px !important; }
+
+@media screen and (max-width: 985px) {
+  h2#sponsor_cta {
+    font-size: 1.75em; } }
 
 div.sponsors {
   margin-bottom: 50px; }
