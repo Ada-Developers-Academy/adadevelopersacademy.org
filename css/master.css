@@ -278,3 +278,12 @@ iframe#indie-gogo-widget {
   margin-bottom: 40px; }
 .vol_signup .bright_text {
   font-weight: bold; }
+
+#vol_guide p {
+  margin-bottom: 3px; }
+#vol_guide li {
+  line-height: 1.2em !important; }
+#vol_guide .alternating_list {
+  list-style-type: none; }
+  #vol_guide .alternating_list li {
+    padding-bottom: 1em !important; }
