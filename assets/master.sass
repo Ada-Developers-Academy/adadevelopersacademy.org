@@ -11,6 +11,23 @@ $yellow: #dab765
 $display-font: "oxtail", sans-serif
 $text-font: "ff-tisa-web-pro", serif
 
+@mixin button_up ($color)
+  cursor: pointer 
+  padding: 10px 17px
+  color: $color
+  border: 1px solid $color
+  border-radius: 3px
+  background-color: rgba(255, 255, 255, 0.3)
+  box-shadow: 1px 1px 5px 1px $color
+
+@mixin button_down($color)
+  text-decoration: none 
+  color: $color
+  border: 1px solid $color
+  background-color: rgba(255, 255, 255, 0.7)
+  box-shadow: 0 0 2px 1px $color
+
+
 //
 // Text
 // 
@@ -26,8 +43,11 @@ h1, h2, h3
 a
   color: $grass  
 
+//Don't the original intent of this padding-left, but at smaller screen sizes it causes a very visible asymmetry. This fixes that problem, while hopefully not breaking anything else.
 .container 
   padding-left: 10px
+  @media screen and (max-width: 767px) 
+    padding-left: 0
   
 .body-text 
   font-size: 1.4em
@@ -59,6 +79,11 @@ input
   display: inline-block
 input.btn
   margin-top: 0px !important
+
+.button-link 
+  @include button_up($grass)
+.button-link:hover, .button-link:focus
+  @include button_down($sea)
 
 //
 // Top Navigation Link Colors
@@ -199,8 +224,11 @@ input.btn
     margin: 0 auto
   #jumbotron-text
     margin: 0 auto
+    padding: 3em
     background: rgba(239, 240, 240, .4)
-    height: 300px
+    height: 10em
+    @media screen and (max-width: 985px)
+      padding: 1.5em
     @media screen and (max-width: 767px) 
       height: 100%
 
@@ -212,11 +240,20 @@ input.btn
 
   h1 
     text-shadow: 2px 2px white
-    font-size: 70px
+    font-size: 4em
     line-height: .95
+    margin-top: -.2em
+    @media screen and (max-width: 985px)
+      font-size: 3em !important
+      margin-top: 0
+    @media screen and (max-width: 500px)
+      font-size: 2em !important
+
+.spaced-right
+  padding-left: 30px
 
 .subtitle
-  margin-top: 20px
+  margin: 1.3em .7em
 
 .featured
   text-align: center
@@ -226,6 +263,10 @@ input.btn
 h2.featured
   font-size: 28px   
   margin-top: 0px !important 
+
+h2#sponsor_cta
+  @media screen and (max-width: 985px)
+    font-size: 1.75em
    
 div.sponsors
   margin-bottom: 50px
@@ -317,15 +358,9 @@ iframe#indie-gogo-widget
       margin-bottom: 10px 
     input[type=submit]
       float: right 
-      cursor: pointer 
-      color: $grass
-      padding: 10px 17px
-      border: 1px solid $grass
-      border-radius: 3px
-      box-shadow: 0 0 4px
+      @include button_up($grass)
     input[type=submit]:hover, input[type=submit]:focus
-      background-color: white
-      box-shadow: 0 0 1px 
+      @include button_down($sea)
   li 
     line-height: 1.5em
   .space_after
