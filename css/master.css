@@ -149,7 +149,7 @@ input.btn {
   #jumbotron #jumbotron-text {
     margin: 0 auto;
     background: rgba(239, 240, 240, 0.4);
-    height: 300px; }
+    height: 245px; }
     @media screen and (max-width: 767px) {
       #jumbotron #jumbotron-text {
         height: 100%; } }
