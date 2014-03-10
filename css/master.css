@@ -1,11 +1,11 @@
 body {
-  background: #e4e4e4;
-  font-family: "ff-tisa-web-pro", serif;
+  background: #fff;
+  font-family: 'Sintony', sans-serif;
   font-size: 1em;
   line-height: 1.5em; }
 
 h1, h2, h3 {
-  font-family: "oxtail", sans-serif; }
+  font-family: 'Rufina', serif; }
 
 a {
   color: #578934; }
@@ -75,7 +75,7 @@ input.btn {
       .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li a {
         padding: 0.75em 0.5em 1em;
         text-shadow: 0 0 0;
-        font-family: "oxtail", sans-serif; }
+        font-family: 'Sintony', sans-serif; }
       .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#logo {
         position: relative;
         width: 120px; }
