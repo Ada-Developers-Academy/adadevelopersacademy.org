@@ -146,10 +146,12 @@ input.btn {
   @media screen and (max-width: 767px) {
     #jumbotron {
       padding: 0; } }
+  #jumbotron #jumbotron-video {
+    margin: 0 auto; }
   #jumbotron #jumbotron-text {
     margin: 0 auto;
     background: rgba(239, 240, 240, 0.4);
-    height: 245px; }
+    height: 300px; }
     @media screen and (max-width: 767px) {
       #jumbotron #jumbotron-text {
         height: 100%; } }
