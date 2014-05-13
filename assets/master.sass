@@ -30,13 +30,20 @@ a
   padding-left: 10px
   
 .body-text 
-  margin-bottom: 5em
+  font-size: 1.4em
+  line-height: 1.5em
   p 
-    font-size: 1.4em
-    line-height: 1.5em
     margin-bottom: 40px
+
 hr
   margin: 30px 0
+
+.right_text
+  text-align: right
+
+.center_text
+  text-align: center
+
 // end
 
 .killwithcenter
@@ -120,6 +127,8 @@ input.btn
             position: absolute
             top: -9px
             left: 11px
+        li#apply
+          background: $lime    
 
 .icon
   margin-top: 10px
@@ -206,14 +215,18 @@ input.btn
     font-size: 70px
     line-height: .95
 
+.subtitle
+  margin-top: 20px
 
 .featured
-  font-size: 28px
   text-align: center
+  a.btn
+    margin-top: 20px !important
 
-.subtitle h2
-  margin-top: 30px
-  
+h2.featured
+  font-size: 28px   
+  margin-top: 0px !important 
+   
 div.sponsors
   margin-bottom: 50px
   h3 
@@ -233,10 +246,6 @@ ul.team
   img
     width: 200px
     height: 200px
-
-iframe#indie-gogo-widget
-  display: block
-  margin: 15px auto 0 auto
   
 // Page-specific styling
 #ada-info img 
@@ -255,3 +264,73 @@ iframe#indie-gogo-widget
 .sub
   padding-top: 0px !important
   font-size: 12px
+  
+//News
+.news-links 
+  a
+    font-size: 24px  
+  div
+    padding: 15px 0
+    
+.blog-links
+  a.blog-title
+    font-size: 24px
+      
+//blog
+.blog-post
+  margin: 50px
+.blog-video
+  margin: 50px
+
+//Community / For Companies
+.spons_logo
+  max-width: 100px
+.img_right
+  float: right
+.img_left
+  float: left
+.clear_floats
+  clear: both
+.emphasis
+  color: $forest
+  text-shadow: 1px 1px white
+  font-size: 1.4em
+  padding: 10px 0px 10px 0px 
+
+//Community / Volunteer Signup 
+.vol_signup
+  form 
+    background-color: rgba(255, 255, 255, 0.45)
+    padding: 25px
+    border: 1px solid $grass
+      radius: 10px 
+    label
+      margin-bottom: 10px 
+    input[type=submit]
+      float: right 
+      cursor: pointer 
+      color: $grass
+      padding: 10px 17px
+      border: 1px solid $grass
+      border-radius: 3px
+      box-shadow: 0 0 4px
+    input[type=submit]:hover, input[type=submit]:focus
+      background-color: white
+      box-shadow: 0 0 1px 
+  li 
+    line-height: 1.5em
+  .space_after
+    margin-bottom: 40px
+  .bright_text
+    font-weight: bold  
+
+//Community / Volunteer Guidelines
+#vol_guide
+  p
+    margin-bottom: 3px 
+  li
+    line-height: 1.2em !important
+  .alternating_list
+    list-style-type: none
+    li
+      padding-bottom: 1em !important

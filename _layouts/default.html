@@ -45,13 +45,14 @@
         </button>
         <div class="nav-collapse collapse">
           <ul class="nav center-nav">
-            <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="/">Home</a></li>
-            <li class="{% if page.url == '/about/index.html' %}active{% endif %}"><a href="/about">About</a></li>
+             <li id="home" class="{% if page.url == '/' %}active{% endif %}"><a href="/">Home</a></li>
             <li class="nav-faq {% if page.url == '/faq/index.html'   %}active{% endif %}"><a href="/faq">FAQ</a></li>
+            <li class="{% if page.url == '/about/index.html' %}active{% endif %}"><a href="/about">About</a></li>
+             <li class="{% if page.url == '/news/index.html' %}active{% endif %}"><a href="/news">News</a></li>
             <li id="logo" class='visible-desktop'><a href="/"><img id="adalogo" src="/images/ada_logo_circle.png" /></a></li>
-            <li class="{% if page.url == '/apply/index.html' %}active{% endif %}"><a href="/team">Team</a></li>
-            <li class="{% if page.url == '/community/index.html' %}active{% endif %}"><a href="/community">Get Involved</a></li>
-            <li class="{% if page.url == '/apply/index.html' %}active{% endif %}"><a href="/apply">Apply</a></li>
+            <li class="{% if page.url == '/blog/index.html' %}active{% endif %}"><a href="http://adadevacademy.tumblr.com/">Blog</a></li>
+            <li class="{% if page.url == '/community/index.html' %}active{% endif %}"><a href="/community">Community</a></li>
+           <li class="{% if page.url == '/apply/index.html' %}active{% endif %}"><a href="/apply">Apply</a></li>
           </ul> 
         </div><!--/.nav-collapse -->
       </div>
@@ -61,6 +62,9 @@
   <div class="footer">
       <div class='row'>
         <div class='span6 social'>
+          <div class="ta-info">
+            Ada is a project of the <a href="http://technology-alliance.com" target="blank">Technology Alliance</a>. 
+          </div> 
           <a href="http://github.com/Ada-Developers-Academy" target="blank"><img src="/images/icons/icongithub.png" class="icon" /></a>
            <a href="http://twitter.com/adaacademy" target="blank"><img src="/images/icons/icontwitter.png" class="icon" /></a>
             <a href="https://www.facebook.com/adadevelopers" target="blank"><img src="/images/icons/iconfacebook.png" class="icon" /></a>

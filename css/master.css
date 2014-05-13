@@ -14,14 +14,19 @@ a {
   padding-left: 10px; }
 
 .body-text {
-  margin-bottom: 5em; }
+  font-size: 1.4em;
+  line-height: 1.5em; }
   .body-text p {
-    font-size: 1.4em;
-    line-height: 1.5em;
     margin-bottom: 40px; }
 
 hr {
   margin: 30px 0; }
+
+.right_text {
+  text-align: right; }
+
+.center_text {
+  text-align: center; }
 
 .killwithcenter {
   display: block;
@@ -82,6 +87,8 @@ input.btn {
           position: absolute;
           top: -9px;
           left: 11px; }
+      .navbar-inner .container-fluid .nav-collapse.collapse ul.nav.center-nav li#apply {
+        background: #9eb15f; }
 
 .icon {
   margin-top: 10px;
@@ -157,12 +164,17 @@ input.btn {
     font-size: 70px;
     line-height: 0.95; }
 
-.featured {
-  font-size: 28px;
-  text-align: center; }
+.subtitle {
+  margin-top: 20px; }
 
-.subtitle h2 {
-  margin-top: 30px; }
+.featured {
+  text-align: center; }
+  .featured a.btn {
+    margin-top: 20px !important; }
+
+h2.featured {
+  font-size: 28px;
+  margin-top: 0px !important; }
 
 div.sponsors {
   margin-bottom: 50px; }
@@ -182,10 +194,6 @@ ul.team img {
   width: 200px;
   height: 200px; }
 
-iframe#indie-gogo-widget {
-  display: block;
-  margin: 15px auto 0 auto; }
-
 #ada-info img {
   display: block;
   margin: 0 auto; }
@@ -204,3 +212,69 @@ iframe#indie-gogo-widget {
 .sub {
   padding-top: 0px !important;
   font-size: 12px; }
+
+.news-links a {
+  font-size: 24px; }
+.news-links div {
+  padding: 15px 0; }
+
+.blog-links a.blog-title {
+  font-size: 24px; }
+
+.blog-post {
+  margin: 50px; }
+
+.blog-video {
+  margin: 50px; }
+
+.spons_logo {
+  max-width: 100px; }
+
+.img_right {
+  float: right; }
+
+.img_left {
+  float: left; }
+
+.clear_floats {
+  clear: both; }
+
+.emphasis {
+  color: #305e42;
+  text-shadow: 1px 1px white;
+  font-size: 1.4em;
+  padding: 10px 0px 10px 0px; }
+
+.vol_signup form {
+  background-color: rgba(255, 255, 255, 0.45);
+  padding: 25px;
+  border: 1px solid #578934;
+    border-radius: 10px; }
+  .vol_signup form label {
+    margin-bottom: 10px; }
+  .vol_signup form input[type=submit] {
+    float: right;
+    cursor: pointer;
+    color: #578934;
+    padding: 10px 17px;
+    border: 1px solid #578934;
+    border-radius: 3px;
+    box-shadow: 0 0 4px; }
+  .vol_signup form input[type=submit]:hover, .vol_signup form input[type=submit]:focus {
+    background-color: white;
+    box-shadow: 0 0 1px; }
+.vol_signup li {
+  line-height: 1.5em; }
+.vol_signup .space_after {
+  margin-bottom: 40px; }
+.vol_signup .bright_text {
+  font-weight: bold; }
+
+#vol_guide p {
+  margin-bottom: 3px; }
+#vol_guide li {
+  line-height: 1.2em !important; }
+#vol_guide .alternating_list {
+  list-style-type: none; }
+  #vol_guide .alternating_list li {
+    padding-bottom: 1em !important; }
